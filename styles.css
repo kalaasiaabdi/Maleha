@@ -1,0 +1,50 @@
+body {
+    background-image: url("image/train.avif");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 2px red;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.container{
+    background: rgb(220, 157, 157);
+    width: 500px;
+    height: 200px;
+    padding-bottom: 100px;
+    margin:auto ;
+    border: 5px solid black;
+    border-radius:5px ;
+
+}
+button {
+    display: block;
+    margin: auto;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(84, 125, 187);
+}
+
+#save-btn {
+    background: darkgreen;
+}
